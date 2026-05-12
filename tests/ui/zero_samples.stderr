@@ -1,0 +1,5 @@
+error: `samples` must be greater than zero
+ --> tests/ui/zero_samples.rs:5:15
+  |
+5 |     samples = 0,
+  |               ^

@@ -1,0 +1,5 @@
+error: `digest` must be exactly 64 lowercase hexadecimal characters
+ --> tests/ui/malformed_digest.rs:3:24
+  |
+3 | #[compat_test(digest = "abc", samples = 1)]
+  |                        ^^^^^

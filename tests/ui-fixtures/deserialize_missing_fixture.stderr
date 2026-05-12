@@ -1,0 +1,7 @@
+error: missing required `fixture` or `fixtures(...)` argument
+ --> tests/ui-fixtures/deserialize_missing_fixture.rs:1:1
+  |
+1 | #[binary_compat::compat_deserialize_test()]
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: this error originates in the attribute macro `binary_compat::compat_deserialize_test` (in Nightly builds, run with -Z macro-backtrace for more info)

@@ -1,0 +1,5 @@
+error: unknown field attribute; expected `sample_with`, `value`, `default`, `skip`, `fingerprint_with`, `fingerprint_skip`, `fingerprint_since`, `shape_with`, or `shape_skip`
+ --> tests/ui/derive_unknown_field_attr.rs:5:14
+  |
+5 |     #[compat(unknown)]
+  |              ^^^^^^^

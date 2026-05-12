@@ -1,0 +1,5 @@
+error: duplicate fixture name
+ --> tests/ui-fixtures/deserialize_duplicate_fixture_name.rs:4:9
+  |
+4 |         legacy = "tests/fixtures/manual_fixture.json",
+  |         ^^^^^^

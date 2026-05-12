@@ -1,0 +1,5 @@
+error: `shape_digest` must be a string literal
+ --> tests/ui/shape_digest_not_string.rs:3:20
+  |
+3 |     shape_digest = 123,
+  |                    ^^^

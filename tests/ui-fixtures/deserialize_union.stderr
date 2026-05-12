@@ -1,0 +1,5 @@
+error: `compat_deserialize_test` currently supports concrete structs and enums only, not unions
+ --> tests/ui-fixtures/deserialize_union.rs:4:1
+  |
+4 | union NotSupported {
+  | ^^^^^

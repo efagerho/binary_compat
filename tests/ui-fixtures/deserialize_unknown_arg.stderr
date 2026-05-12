@@ -1,0 +1,5 @@
+error: unknown argument; expected `fixture` or `fixtures`
+ --> tests/ui-fixtures/deserialize_unknown_arg.rs:2:5
+  |
+2 |     path = "tests/fixtures/manual_fixture.json",
+  |     ^^^^

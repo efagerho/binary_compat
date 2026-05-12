@@ -1,0 +1,5 @@
+error: `compat_deserialize_test` currently supports concrete, non-generic structs and enums only
+ --> tests/ui-fixtures/deserialize_generic.rs:4:15
+  |
+4 | struct Generic<T> {
+  |               ^^^

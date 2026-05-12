@@ -1,0 +1,5 @@
+error: `compat_test` currently supports concrete, non-generic structs and enums only
+ --> tests/ui/generic.rs:7:19
+  |
+7 | struct Unsupported<T> {
+  |                   ^^^

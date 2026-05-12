@@ -1,0 +1,5 @@
+error: only one sampling strategy is allowed per field
+  --> tests/ui/derive_duplicate_strategy.rs:12:39
+   |
+12 |     #[compat(sample_with = sample_u8, default)]
+   |                                       ^^^^^^^

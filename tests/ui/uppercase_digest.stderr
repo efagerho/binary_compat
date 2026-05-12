@@ -1,0 +1,5 @@
+error: `digest` must contain only lowercase hexadecimal characters
+ --> tests/ui/uppercase_digest.rs:4:14
+  |
+4 |     digest = "0123456789ABCDEF0123456789abcdef0123456789abcdef0123456789abcdef",
+  |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

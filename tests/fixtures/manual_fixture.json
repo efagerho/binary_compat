@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "type_name": "binary_compat::tests::ManualFixture",
+  "format": "manual one-byte payload",
+  "producer": "binary_compat tests",
+  "samples": 2,
+  "seed": "binary_compat default seed v1",
+  "digest_algorithm_version": 1,
+  "semantic_digest": "ff89e431f45de9703968d7c34ce43746da2a31d2072516709875ad8f02b75b98",
+  "payload_digest": "ff89e431f45de9703968d7c34ce43746da2a31d2072516709875ad8f02b75b98",
+  "payloads": [
+    "01",
+    "02"
+  ]
+}
