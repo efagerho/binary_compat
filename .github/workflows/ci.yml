@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+
+      - name: Cache Cargo
+        uses: Swatinem/rust-cache@v2
+
+      - name: Format
+        run: cargo fmt --all -- --check
+
+      - name: Test all features
+        run: cargo test --all-features
+
+      - name: Test bincode 1 only
+        run: cargo test --features bincode1
+
+      - name: Test bincode 2 only
+        run: cargo test --features bincode2
+
+      - name: Clippy
+        run: cargo clippy --all-features --all-targets -- -D warnings
