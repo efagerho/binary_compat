@@ -3,6 +3,7 @@
 [![Crates.io](https://img.shields.io/crates/v/binary_compat.svg)](https://crates.io/crates/binary_compat)
 [![Documentation](https://docs.rs/binary_compat/badge.svg)](https://docs.rs/binary_compat)
 [![CI](https://github.com/efagerho/binary_compat/actions/workflows/ci.yml/badge.svg)](https://github.com/efagerho/binary_compat/actions/workflows/ci.yml)
+[![License](https://img.shields.io/crates/l/binary_compat.svg)](LICENSE)
 
 `binary_compat` helps Rust crates test binary serialization compatibility over
 time.
