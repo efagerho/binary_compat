@@ -1,0 +1,12 @@
+[package]
+name = "binary_compat_bincode_ambiguous_fixture"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[workspace]
+
+[dependencies]
+bincode = "2.0.1"
+binary_compat = { path = "../..", features = ["bincode1", "bincode2"] }
+serde = { version = "1", features = ["derive"] }
